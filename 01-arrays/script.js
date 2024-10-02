@@ -56,4 +56,11 @@ console.log(teachersString);
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+const isTeachersEmpty = teachers.length;
+if (isTeachersEmpty == 0) {
+  console.log('Questo array è vuoto');
+}else{
+  console.log('Questo array contiene degli elementi');
+  
+}
+
