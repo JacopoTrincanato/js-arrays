@@ -21,9 +21,9 @@ const longNames = [];
 for (let i = 0; i < teachers.length; i++) {
   console.log(teachers[i]);
   
-
-}if (teachers[i].length >= 5) {
-  longNames.push(teachers[i]); 
+  if (teachers[i].length >= 5) {
+    longNames.push(teachers[i]); 
+  }
 }
 
 console.log(longNames);
