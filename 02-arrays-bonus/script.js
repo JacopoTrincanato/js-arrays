@@ -18,7 +18,7 @@ console.log(reversedTeachers);
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
 const longNames = [];
 
-/*for (let i = 0; i < teachers.length; i++) {
+for (let i = 0; i < teachers.length; i++) {
   console.log(teachers[i]);
   
 
@@ -26,7 +26,7 @@ const longNames = [];
   longNames.push(teachers[i]); 
 }
 
-console.log(longNames);*/
+console.log(longNames);
 
 // 3. Rimuovi 'Ed' dall'array teachers
 let index = teachers.indexOf('Ed');
